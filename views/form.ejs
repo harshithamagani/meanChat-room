@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Login</title>
+	<meta name="description" content="Page login and registration">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <style>
+        .margin_top{
+            margin-top: 10%;
+            width: 50%;
+            margin-left: 20%;
+        }
+    </style>
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron jumbotron-fluid margin_top">
+			<div class="container">
+				<form class="form-horizontal" action="/chat-group"  method="POST">
+					<div class="form-group">
+						<label class="control-label col-sm-12"><h3>Join Chat Group</h3></label>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-sm-4" for="name">User Name</label>
+						<div class="col-sm-12"> 
+							<input type="text" class="form-control" name="name">
+						</div>
+					</div>
+					<div class="form-group">
+							<label class="control-label col-sm-4" for="img">Image</label>
+							<div class="col-sm-12"> 
+								<input type="text" class="form-control" name="img">
+							</div>
+						</div>
+					<div class="form-group"> 
+						<div class="col-sm-offset-2 col-sm-12">
+							<button type="submit" class="btn btn-primary">Join</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
