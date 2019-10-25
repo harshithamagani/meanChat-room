@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}))
 app.set('view engine', 'ejs');
 app.set('views', __dirname + '/views');
-mongoose.connect('mongodb://localhost/chatApp_db1', {useNewUrlParser: true});
+mongoose.connect('mongodb://localhost/chatApp_db3', {useNewUrlParser: true});
 app.use(session({
   secret: 'keyboardkitteh',
   resave: false,
