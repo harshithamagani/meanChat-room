@@ -96,6 +96,6 @@ io.on('connection', (socket) =>{
   })
 })
 
-var server = http.listen(8000, () => {
+var server = http.listen(8000,"localhost", () => {
   console.log('server is running on port', server.address().port);
 });
